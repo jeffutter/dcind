@@ -1,9 +1,10 @@
 # Inspired by https://github.com/mumoshu/dcind
+# and https://github.com/meAmidos/dcind
 FROM alpine:3.4
-MAINTAINER Dmitry Matrosov <amidos@amidos.me>
+MAINTAINER Jeffery Utter <jeff@jeffutter.com>
 
-ENV DOCKER_VERSION=1.13.1 \
-    DOCKER_COMPOSE_VERSION=1.11.1
+ENV DOCKER_VERSION=17.03.0-ce \
+    DOCKER_COMPOSE_VERSION=1.11.2
 
 # Install Docker and Docker Compose
 RUN apk --update --no-cache \
